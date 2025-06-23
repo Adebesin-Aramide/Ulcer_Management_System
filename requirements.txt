@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+huggingface-hub
+langchain-community
+faiss-cpu
