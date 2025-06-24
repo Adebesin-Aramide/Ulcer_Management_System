@@ -1,8 +1,5 @@
-fastapi
-uvicorn[standard]
 python-dotenv
-huggingface-hub
+faiss
 langchain-community
-langchain-pinecone
-pinecone
+huggingface-hub
 sentence-transformers
