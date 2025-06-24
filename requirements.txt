@@ -3,5 +3,6 @@ uvicorn[standard]
 python-dotenv
 huggingface-hub
 langchain-community
+langchain-pinecone
 pinecone
 sentence-transformers
