@@ -27,8 +27,8 @@ if not HF_TOKEN or not PINECONE_API_KEY or not PINECONE_ENV:
     sys.exit(1)
 
 # ─── Init Mistral Inference ────────────────
-MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
-client = InferenceClient(model=MODEL_ID, token=HF_TOKEN)
+# MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
+# client = InferenceClient(model=MODEL_ID, token=HF_TOKEN)
 
 # ─── Init Pinecone Vector Store ─────────────
 pc = Pinecone(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
