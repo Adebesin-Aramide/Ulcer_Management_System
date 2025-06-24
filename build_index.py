@@ -1,56 +1,41 @@
-# build_index.py
-
 import os
-import pickle
-from glob import glob
-from dotenv import load_dotenv
+
+from pinecone import Pinecone, ServerlessSpec
+from langchain.embeddings import SentenceTransformerEmbeddings
+from langchain_pinecone import PineconeVectorStore
+from langchain_core.documents import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
-from langchain.schema import Document
 
-# Load .env (if present)
-load_dotenv()
 
-def load_txt_docs(path: str):
-    """
-    Load .txt files from a folder or a single file.
-    Returns a list of LangChain Documents.
-    """
-    docs = []
-    if os.path.isdir(path):
-        for fn in glob(os.path.join(path, "*.txt")):
-            with open(fn, encoding="utf-8") as f:
-                text = f.read()
-            docs.append(Document(page_content=text,
-                                 metadata={"source": os.path.basename(fn)}))
-    elif os.path.isfile(path):
-        with open(path, encoding="utf-8") as f:
-            text = f.read()
-        docs.append(Document(page_content=text,
-                             metadata={"source": os.path.basename(path)}))
-    else:
-        raise FileNotFoundError(f"No file or directory at {path}")
-    return docs
+pinecone_api_key = os.environ.get("PINECONE_API_KEY")
 
-def main():
-    # Point this at your ulcer knowledge base
-    data_path = "ulcer.txt"   # or a folder "ulcer_kb/"
-    raw_docs = load_txt_docs(data_path)
+pc = Pinecone(api_key=pinecone_api_key)
 
-    # Split into ~500-token chunks
-    splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-    chunks = splitter.split_documents(raw_docs)
 
-    # Embed locally with a small Sentence-Transformer
-    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-    faiss_index = FAISS.from_documents(chunks, embeddings)
+index_name = "ulcer-index" 
 
-    # Persist the FAISS index
-    with open("ulcer_faiss_index.pkl", "wb") as f:
-        pickle.dump(faiss_index, f)
+if not pc.has_index(index_name):
+    pc.create_index(
+        name=index_name,
+        dimension=384,
+        metric="cosine",
+        spec=ServerlessSpec(cloud="aws", region="us-east-1"),
+    )
 
-    print("✅ FAISS index built and saved to ulcer_faiss_index.pkl")
+index = pc.Index(index_name)
 
-if __name__ == "__main__":
-    main()
+#creating embeddings by converting the splitted chunks of text into a format the the AI model can understand
+embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+
+vector_store = PineconeVectorStore(index=index, embedding=embeddings)
+
+with open("data/ulcer.txt", encoding="utf-8") as f:
+    text = f.read()
+
+document = Document(page_content=text, metadata={"source": "data/ulcer.txt"})
+
+splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+chunks = splitter.split_documents([document])
+# Adding documents to the vector store
+vector_store = PineconeVectorStore(index=index, embedding=embeddings, text_key="text")
+vector_store.add_documents(chunks)
