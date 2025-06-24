@@ -1,5 +1,5 @@
 python-dotenv
-faiss
+faiss-cpu
 langchain-community
 huggingface-hub
 sentence-transformers
