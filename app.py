@@ -78,14 +78,17 @@ def build_prompt(docs: List[Document], question: str) -> str:
     )
 
 # ─── Inference with Mistral ────────────────
+import requests
+
 def generate_answer(prompt: str) -> str:
-    output = client.text_generation(
-        prompt,
-        max_new_tokens=512,
-        temperature=0.1,
-        stop_sequences=["</s>"]
+    response = requests.post(
+        "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3",
+        headers={"Authorization": f"Bearer {HF_TOKEN}"},
+        json={"inputs": prompt, "parameters": {"max_new_tokens": 512, "temperature": 0.1}}
     )
-    return output.split("[/INST]")[-1].strip()
+    result = response.json()
+    return result[0]["generated_text"].split("[/INST]")[-1].strip() if isinstance(result, list) else result
+
 
 # ─── Root Route ────────────────────────────
 @app.get("/")
