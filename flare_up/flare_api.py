@@ -7,9 +7,9 @@ import numpy as np
 app = FastAPI()
 
 # Load model and encoders
-model = joblib.load("model.pkl")
-mlb_meals = joblib.load("mlb_meals.pkl")
-mlb_symptoms = joblib.load("mlb_symptoms.pkl")
+model = joblib.load("flareup_model.pkl")
+mlb_meals = joblib.load("meals.pkl")
+mlb_symptoms = joblib.load("symptoms.pkl")
 
 class InputData(BaseModel):
     Age: int
