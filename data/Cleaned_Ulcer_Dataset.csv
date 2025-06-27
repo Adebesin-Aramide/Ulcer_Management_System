@@ -1,0 +1,151 @@
+Date,Age,Gender,TakeUlcerMed,MedTime,PainRating,Symptoms,Duration,SymptomChange,Meals,TriggerCauses,AteTriggers,SkippedMeal,AteLate,TookNSAID,StressLevel,CancerDiag,FamilyHistory,HpyloriUlcer,LogTimestamp
+2025-04-06,32,Male,Yes,18:00:00,2,Feeling full quickly,30 mins–2 hrs,3,Ofada Rice;Okro Soup,Skipped a meal,No,No,No,No,5,Yes,Not sure,Not sure,06/04/2025 21:23
+2025-05-23,18,Male,No,,4,Indigestion;Unintended weight loss;Dark or tarry stools;Persistent fatigue,>2 hrs,3,Groundnut Soup;Grilled Fish,Spicy foods,Yes,Yes,No,Yes,8,Yes,Not sure,No,23/05/2025 23:04
+2025-05-28,41,Male,No,,5,Nausea;Dark or tarry stools;Blood in vomit/stool,>2 hrs,7,Zobo,Spicy foods,Yes,Yes,No,Yes,10,Yes,Yes,No,28/05/2025 22:18
+2025-05-31,29,Male,Yes,12:00:00,1,None,>2 hrs,5,Boiled Potato,None,No,Yes,No,No,2,No,Not sure,No,31/05/2025 21:21
+2025-06-15,44,Male,No,,2,None,<30 mins,7,Groundnut Soup;Edikang Ikong;Tomato Stew,None,No,No,No,No,6,Yes,Yes,Not sure,15/06/2025 08:19
+2025-02-06,24,Female,No,,4,Persistent fatigue;Nausea;Feeling full quickly,<30 mins,8,Snail,Carbonated drinks,Yes,No,No,No,7,No,No,Not sure,06/02/2025 23:04
+2025-06-24,40,Female,No,,1,None,30 mins–2 hrs,7,Banga Soup,None,No,No,Yes,No,1,No,Yes,Not sure,24/06/2025 18:01
+2025-12-05,22,Male,No,,2,Feeling full quickly,>2 hrs,5,Soft Drinks;Groundnut Soup,Tomatoes,No,No,No,No,0,No,Yes,No,05/12/2025 08:06
+2025-08-05,28,Male,No,,2,None,<30 mins,3,Pepper Soup;Garden Egg Sauce;Noodles,Chocolate,No,No,No,No,4,Yes,Not sure,No,05/08/2025 11:43
+2025-01-05,39,Female,No,,2,None,>2 hrs,9,Pepper Soup;Fried Yam,Raw onions/garlic,No,No,No,No,6,No,Yes,No,05/01/2025 17:26
+2025-01-05,23,Female,Yes,08:00:00,4,Feeling full quickly;Persistent fatigue;Nausea,<30 mins,5,Palm Oil Sauce;Boiled Chicken;Bitterleaf Soup,Took NSAIDs,Yes,No,No,Yes,7,Yes,No,No,05/01/2025 11:20
+2025-04-28,29,Female,No,,5,Persistent fatigue;Blood in vomit/stool;Feeling full quickly;Loss of appetite,>2 hrs,5,Zobo,Citrus fruits,Yes,No,Yes,No,10,Yes,Yes,Not sure,28/04/2025 22:09
+2025-02-06,38,Female,Yes,08:00:00,3,Heartburn;Dark or tarry stools,30 mins–2 hrs,6,Custard,Alcohol,Yes,No,Yes,Yes,8,No,Yes,No,06/02/2025 22:11
+2025-04-26,28,Male,No,,4,Feeling full quickly;Indigestion;Blood in vomit/stool;Persistent fatigue,30 mins–2 hrs,1,Roasted Plantain (Boli);Boiled Potato;Custard,Raw onions/garlic,Yes,Yes,Yes,Yes,10,No,No,Yes,26/04/2025 20:16
+2025-03-05,25,Male,Yes,18:00:00,2,Feeling full quickly,>2 hrs,7,Zobo,Fermented foods,No,No,No,No,0,Yes,Not sure,No,05/03/2025 17:24
+2025-05-18,44,Female,No,,5,Blood in vomit/stool;Heartburn;Persistent fatigue,>2 hrs,5,Goat Meat;Edikang Ikong;Pap,Ate late,Yes,No,Yes,Yes,7,Yes,Not sure,Yes,18/05/2025 07:04
+2025-01-06,42,Male,Yes,08:00:00,4,Heartburn;Loss of appetite,30 mins–2 hrs,10,Afang Soup;Ogbono Soup;Fried Rice,Fatty foods,Yes,No,No,No,9,No,Yes,Yes,06/01/2025 20:38
+2025-03-06,35,Female,Yes,08:00:00,2,None,30 mins–2 hrs,4,Ogbono Soup,None,No,No,No,No,6,Yes,No,Yes,06/03/2025 17:39
+2025-05-29,21,Male,Yes,,2,None,30 mins–2 hrs,1,Milk;Fried Yam,Fried foods,No,No,No,No,2,Yes,No,No,29/05/2025 15:01
+2025-05-13,23,Female,Yes,12:00:00,3,Dark or tarry stools;Blood in vomit/stool,>2 hrs,1,Fried Plantain,Fermented foods,Yes,No,Yes,No,10,No,Yes,No,13/05/2025 13:05
+2025-05-30,34,Male,No,,4,Heartburn;Feeling full quickly,>2 hrs,5,Sweet Potato;Egusi Soup,Took NSAIDs,Yes,Yes,Yes,Yes,8,Yes,No,Not sure,30/05/2025 13:01
+2025-06-18,35,Male,No,,3,Nausea;Persistent fatigue;Loss of appetite,>2 hrs,7,Cow Skin (Ponmo);Afang Soup;Vegetable Soup,Carbonated drinks,Yes,Yes,Yes,Yes,7,No,Not sure,Yes,18/06/2025 14:18
+2025-05-20,22,Female,Yes,,1,Feeling full quickly,>2 hrs,9,Fish Sauce;Grilled Fish;Banga Soup,Raw onions/garlic,No,No,No,No,5,Yes,Not sure,Not sure,20/05/2025 05:03
+2025-06-13,25,Male,No,,2,Feeling full quickly,>2 hrs,10,Ewedu;Efo Riro;Roasted Plantain (Boli),Chocolate,No,No,Yes,No,5,Yes,Yes,Not sure,13/06/2025 12:24
+2025-03-06,19,Male,No,,4,Nausea;Heartburn,<30 mins,9,Juice,Citrus fruits,Yes,No,No,Yes,8,Yes,Yes,Not sure,06/03/2025 16:51
+2025-06-13,28,Male,Yes,18:00:00,3,Nausea;Persistent fatigue;Feeling full quickly,>2 hrs,5,Egusi Soup,Skipped a meal,Yes,No,No,Yes,7,No,Not sure,Yes,13/06/2025 22:28
+2025-01-05,24,Male,No,,4,Nausea;Unintended weight loss;Blood in vomit/stool;Loss of appetite,30 mins–2 hrs,9,Ofada Rice,Ate under stress,Yes,Yes,Yes,Yes,9,No,Not sure,Not sure,05/01/2025 16:41
+2025-05-21,35,Female,No,,2,None,30 mins–2 hrs,1,Groundnut Soup;Bitterleaf Soup,Spicy foods,No,No,No,No,1,Yes,Yes,Not sure,21/05/2025 17:36
+2025-03-06,44,Male,Yes,,5,Dark or tarry stools;Loss of appetite;Indigestion;Persistent fatigue,30 mins–2 hrs,8,Groundnut Soup;Roasted Plantain (Boli),Skipped a meal,Yes,No,Yes,No,9,No,Yes,Yes,06/03/2025 22:15
+2025-09-05,28,Female,Yes,,1,None,>2 hrs,10,Gbegiri;Sweet Potato,Overate,No,No,No,No,4,No,Yes,Yes,05/09/2025 21:38
+2025-06-18,28,Male,Yes,12:00:00,4,Heartburn;Dark or tarry stools;Loss of appetite,>2 hrs,10,Jollof Rice;Water,Caffeinated drinks,Yes,No,Yes,Yes,10,No,Not sure,Not sure,18/06/2025 11:27
+2025-05-31,18,Female,Yes,18:00:00,1,None,30 mins–2 hrs,1,Ewedu;Groundnut Soup,None,No,No,Yes,No,1,Yes,No,No,31/05/2025 09:27
+2025-04-05,33,Male,No,,2,None,30 mins–2 hrs,9,Smoothies;Groundnut Soup;Ewedu,Raw onions/garlic,No,Yes,No,No,6,Yes,Not sure,No,05/04/2025 13:35
+2025-04-27,26,Male,No,,3,Loss of appetite;Nausea,>2 hrs,4,Boiled Plantain;Jollof Rice;Goat Meat,Caffeinated drinks,Yes,Yes,Yes,Yes,10,No,Not sure,Yes,27/04/2025 20:03
+2025-06-19,18,Male,No,,4,Dark or tarry stools;Blood in vomit/stool,>2 hrs,4,Juice;Fried Rice;Okro Soup,Fried foods,Yes,Yes,Yes,Yes,9,No,Not sure,Yes,19/06/2025 09:55
+2025-06-19,44,Female,Yes,,1,None,>2 hrs,5,Juice;White Rice,None,No,No,No,No,4,No,No,Not sure,19/06/2025 09:03
+2025-06-14,23,Female,Yes,,4,Blood in vomit/stool;Dark or tarry stools;Nausea;Heartburn,>2 hrs,8,Energy Drinks,Fried foods,Yes,Yes,Yes,No,10,No,Yes,Not sure,14/06/2025 05:23
+2025-06-05,32,Female,Yes,12:00:00,4,Unintended weight loss;Feeling full quickly,<30 mins,7,Goat Meat,Chocolate,Yes,Yes,No,Yes,10,Yes,Yes,Yes,05/06/2025 21:02
+2025-06-06,37,Male,Yes,12:00:00,1,None,30 mins–2 hrs,5,Pepper Soup;Roasted Plantain (Boli);Okro Soup,None,No,No,No,No,4,Yes,Not sure,No,06/06/2025 10:58
+2025-05-25,32,Female,Yes,18:00:00,4,Feeling full quickly;Heartburn,<30 mins,5,Afang Soup;Garden Egg Sauce;Grilled Fish,Fermented foods,Yes,Yes,Yes,Yes,8,Yes,Yes,Not sure,25/05/2025 11:46
+2025-11-06,37,Female,No,,4,Heartburn;Loss of appetite;Indigestion,30 mins–2 hrs,1,Okro Soup;Smoothies,Fermented foods,Yes,Yes,No,Yes,8,No,Yes,Yes,06/11/2025 09:39
+2025-05-18,43,Female,No,,2,Nausea,30 mins–2 hrs,4,Fish Sauce;Coconut Rice,None,No,No,Yes,No,3,No,Yes,Not sure,18/05/2025 22:55
+2025-04-06,33,Male,No,,3,Nausea;Blood in vomit/stool;Dark or tarry stools;Indigestion,>2 hrs,3,Egg Sauce;Efo Riro;Fried Rice,Citrus fruits,Yes,Yes,Yes,No,7,No,Yes,No,06/04/2025 06:00
+2025-06-17,37,Male,Yes,12:00:00,2,None,>2 hrs,2,Custard;Boiled Chicken;Zobo,Tomatoes,No,No,Yes,No,6,Yes,Yes,Not sure,17/06/2025 13:36
+2025-06-06,35,Female,No,,1,None,30 mins–2 hrs,7,White Rice;Oats;Milk,None,No,No,Yes,No,3,No,Yes,Not sure,06/06/2025 10:59
+2025-05-06,19,Female,Yes,,1,None,>2 hrs,2,Soft Drinks;Fried Chicken;Beef,Overate,No,Yes,Yes,No,5,Yes,No,Yes,06/05/2025 08:07
+2025-06-16,40,Male,Yes,18:00:00,1,None,>2 hrs,4,Beef,None,No,No,No,No,4,No,Yes,Not sure,16/06/2025 18:21
+2025-11-06,28,Male,Yes,18:00:00,1,None,<30 mins,9,Yam Porridge,Fermented foods,No,No,No,No,2,Yes,Not sure,Not sure,06/11/2025 20:19
+2025-05-24,20,Male,No,,1,None,30 mins–2 hrs,4,Liver;Milk;Pepper Soup,Alcohol,No,Yes,Yes,No,6,Yes,Not sure,Not sure,24/05/2025 22:56
+2025-05-23,39,Female,Yes,18:00:00,4,Heartburn;Dark or tarry stools,<30 mins,6,Milk,Overate,Yes,No,Yes,No,10,Yes,Yes,No,23/05/2025 16:52
+2025-09-05,29,Male,Yes,12:00:00,3,Persistent fatigue;Dark or tarry stools;Blood in vomit/stool;Nausea,<30 mins,6,Snail;Grilled Fish,Spicy foods,Yes,No,No,No,7,No,Yes,No,05/09/2025 10:21
+2025-06-22,27,Male,No,,1,None,30 mins–2 hrs,7,Liver;Gbegiri;Tomato Stew,Fermented foods,No,No,Yes,No,2,No,Yes,Not sure,22/06/2025 12:07
+2025-05-17,44,Female,Yes,,4,Feeling full quickly;Blood in vomit/stool,<30 mins,6,Edikang Ikong,Raw onions/garlic,Yes,No,Yes,Yes,7,No,Yes,Not sure,17/05/2025 18:19
+2025-04-06,18,Female,No,,3,Heartburn;Feeling full quickly;Persistent fatigue;Indigestion,30 mins–2 hrs,3,Egusi Soup;Pap;Oats,Spicy foods,Yes,No,No,No,9,No,No,Not sure,06/04/2025 13:30
+2025-05-26,42,Male,Yes,12:00:00,3,Loss of appetite;Persistent fatigue;Blood in vomit/stool,>2 hrs,9,Sweet Potato;Pepper Soup;Okro Soup,Ate late,Yes,No,Yes,Yes,10,Yes,Not sure,No,26/05/2025 18:58
+2025-05-25,19,Male,Yes,,4,Nausea;Heartburn,>2 hrs,9,Ofada Rice;Bitterleaf Soup,Stress,Yes,No,No,Yes,10,No,No,Not sure,25/05/2025 06:27
+2025-06-19,39,Male,Yes,12:00:00,1,None,30 mins–2 hrs,4,Pap;Pepper Soup;Roasted Plantain (Boli),Ate under stress,No,No,No,No,6,Yes,Not sure,No,19/06/2025 19:10
+2025-04-27,42,Male,No,,4,Blood in vomit/stool;Feeling full quickly,>2 hrs,2,Fried Plantain;Smoothies;Vegetable Soup,Chocolate,Yes,Yes,No,Yes,7,No,No,Not sure,27/04/2025 17:42
+2025-12-05,26,Female,No,,1,None,>2 hrs,3,Garden Egg Sauce;Tomato Stew,Dairy,No,No,No,No,4,Yes,Yes,Not sure,05/12/2025 23:54
+2025-05-30,27,Male,Yes,08:00:00,3,Indigestion;Nausea,30 mins–2 hrs,4,Egusi Soup;Fried Plantain,Fermented foods,Yes,Yes,Yes,Yes,8,Yes,Yes,Not sure,30/05/2025 05:03
+2025-05-22,35,Male,Yes,18:00:00,3,Loss of appetite;Dark or tarry stools,>2 hrs,1,White Rice,Ate under stress,Yes,No,No,No,9,No,Not sure,Not sure,22/05/2025 15:31
+2025-06-17,41,Male,Yes,12:00:00,1,Heartburn,30 mins–2 hrs,1,Custard,None,No,No,No,No,6,Yes,Not sure,Yes,17/06/2025 14:29
+2025-11-05,42,Male,No,,5,Dark or tarry stools;Unintended weight loss;Blood in vomit/stool;Nausea,<30 mins,3,Cow Skin (Ponmo);Zobo,Overate,Yes,No,Yes,Yes,10,Yes,No,Not sure,05/11/2025 12:05
+2025-05-06,35,Female,Yes,12:00:00,3,Dark or tarry stools;Blood in vomit/stool,30 mins–2 hrs,6,Boiled Chicken;Juice,Ate under stress,Yes,Yes,Yes,No,7,Yes,No,Yes,06/05/2025 16:18
+2025-06-16,31,Female,No,,4,Indigestion;Feeling full quickly;Loss of appetite,<30 mins,8,Water,Stress,Yes,Yes,No,No,10,No,Yes,Not sure,16/06/2025 15:21
+2025-05-31,42,Male,Yes,,5,Dark or tarry stools;Feeling full quickly;Nausea;Loss of appetite,30 mins–2 hrs,6,Custard;Yam Porridge;Beef,Dairy,Yes,Yes,Yes,Yes,8,No,Not sure,Yes,31/05/2025 07:49
+2025-05-22,20,Male,Yes,08:00:00,1,None,<30 mins,6,Banga Soup,Fried foods,No,No,Yes,No,0,Yes,Not sure,Yes,22/05/2025 14:58
+2025-10-05,19,Male,Yes,18:00:00,1,Blood in vomit/stool,30 mins–2 hrs,2,Zobo;Noodles;Fried Chicken,None,No,No,Yes,No,1,Yes,Yes,Not sure,05/10/2025 15:28
+2025-06-18,45,Female,Yes,12:00:00,4,Loss of appetite;Blood in vomit/stool;Unintended weight loss,>2 hrs,6,Groundnut Soup;Soft Drinks,Skipped a meal,Yes,No,Yes,Yes,10,Yes,Yes,Not sure,18/06/2025 11:36
+2025-04-27,19,Male,No,,5,Unintended weight loss;Blood in vomit/stool;Feeling full quickly,<30 mins,5,Sweet Potato;Goat Meat;Egg Sauce,Overate,Yes,Yes,Yes,No,10,Yes,No,Not sure,27/04/2025 07:51
+2025-02-05,19,Female,No,,3,Persistent fatigue;Loss of appetite;Heartburn;Dark or tarry stools,<30 mins,1,Pepper Soup,Overate,Yes,Yes,No,Yes,8,Yes,Not sure,Not sure,05/02/2025 09:31
+2025-05-29,37,Female,No,,2,None,30 mins–2 hrs,6,Grilled Fish,None,No,No,Yes,No,6,No,No,No,29/05/2025 05:25
+2025-08-06,38,Male,Yes,12:00:00,2,Indigestion,<30 mins,10,Tomato Stew;Efo Riro,None,No,No,No,No,4,Yes,Not sure,Yes,06/08/2025 06:10
+2025-06-24,21,Female,No,,3,Heartburn;Nausea;Dark or tarry stools;Indigestion,30 mins–2 hrs,4,Coconut Rice,Raw onions/garlic,Yes,No,Yes,Yes,7,Yes,No,Not sure,24/06/2025 06:10
+2025-05-31,44,Female,Yes,,5,Dark or tarry stools;Unintended weight loss;Loss of appetite,>2 hrs,4,Fried Rice;Liver;Juice,Ate under stress,Yes,No,No,No,10,No,Not sure,No,31/05/2025 19:05
+2025-06-18,44,Female,No,,1,Loss of appetite,<30 mins,8,Zobo,Ate under stress,No,No,Yes,No,1,Yes,Not sure,Yes,18/06/2025 17:45
+2025-06-05,44,Female,Yes,,3,Heartburn;Dark or tarry stools;Feeling full quickly;Nausea,>2 hrs,7,Sweet Potato;Fried Plantain;Ogbono Soup,Fermented foods,Yes,No,No,Yes,10,No,Yes,Yes,05/06/2025 20:43
+2025-03-06,30,Male,No,,2,Loss of appetite,>2 hrs,2,Egg Sauce;Groundnut Soup,Stress,No,No,No,No,2,No,No,Not sure,06/03/2025 12:09
+2025-04-26,19,Female,Yes,,1,Loss of appetite,30 mins–2 hrs,5,Pap,None,No,Yes,Yes,No,3,No,Yes,Yes,26/04/2025 09:12
+2025-10-05,27,Female,No,,4,Persistent fatigue;Heartburn,>2 hrs,7,Spaghetti,Raw onions/garlic,Yes,No,No,No,9,No,Not sure,Not sure,05/10/2025 12:12
+2025-04-28,41,Female,No,,1,Feeling full quickly,>2 hrs,9,Fried Plantain;Coconut Rice;Noodles,Overate,No,No,No,No,5,Yes,No,Not sure,28/04/2025 21:01
+2025-05-25,45,Female,No,,1,Loss of appetite,<30 mins,3,Boiled Potato,None,No,No,No,No,3,No,No,Not sure,25/05/2025 19:33
+2025-05-29,33,Female,No,,3,Nausea;Persistent fatigue;Unintended weight loss,>2 hrs,10,Energy Drinks,Dairy,Yes,No,Yes,Yes,9,No,Yes,No,29/05/2025 21:14
+2025-05-23,29,Male,Yes,08:00:00,5,Indigestion;Heartburn;Unintended weight loss,30 mins–2 hrs,4,Zobo;Pepper Soup;Fried Rice,Ate under stress,Yes,Yes,Yes,No,10,No,Not sure,Not sure,23/05/2025 10:19
+2025-03-06,44,Male,Yes,08:00:00,5,Blood in vomit/stool;Nausea,30 mins–2 hrs,3,Sweet Potato;Vegetable Soup;Ofada Rice,Carbonated drinks,Yes,No,No,Yes,9,Yes,No,Not sure,06/03/2025 17:28
+2025-12-06,25,Female,Yes,12:00:00,1,None,>2 hrs,5,Gbegiri,Spicy foods,No,No,Yes,No,1,Yes,No,Yes,06/12/2025 12:47
+2025-03-05,42,Male,Yes,18:00:00,4,Dark or tarry stools;Loss of appetite,<30 mins,1,Cow Skin (Ponmo);Fried Chicken;Ogbono Soup,Caffeinated drinks,Yes,No,No,No,8,No,Not sure,Not sure,05/03/2025 16:00
+2025-05-14,33,Male,Yes,12:00:00,3,Indigestion;Feeling full quickly;Persistent fatigue;Nausea,>2 hrs,9,Ewedu;Noodles,Ate late,Yes,Yes,Yes,No,10,Yes,Yes,Not sure,14/05/2025 10:11
+2025-06-14,29,Female,No,,5,Feeling full quickly;Indigestion,>2 hrs,4,Vegetable Soup;Ofada Rice,Stress,Yes,No,No,Yes,10,No,No,Not sure,14/06/2025 13:32
+2025-05-27,38,Female,Yes,18:00:00,1,None,>2 hrs,7,Snail,None,No,No,Yes,No,2,No,Yes,Not sure,27/05/2025 05:40
+2025-05-21,45,Male,No,,1,None,30 mins–2 hrs,2,Fried Plantain;Fried Yam;Zobo,Caffeinated drinks,No,Yes,Yes,No,3,Yes,Not sure,Yes,21/05/2025 07:16
+2025-05-26,26,Male,Yes,,2,Feeling full quickly,30 mins–2 hrs,9,Grilled Fish;Sweet Potato;Egg Sauce,Chocolate,No,Yes,Yes,No,3,Yes,Not sure,Not sure,26/05/2025 16:18
+2025-05-15,45,Female,No,,2,None,>2 hrs,1,Yam Porridge;Ewedu;Gbegiri,Chocolate,No,No,No,No,3,Yes,No,Not sure,15/05/2025 05:39
+2025-03-05,43,Female,No,,4,Loss of appetite;Persistent fatigue,>2 hrs,8,Smoothies;Gbegiri;Noodles,Fried foods,Yes,No,No,Yes,10,No,Not sure,No,05/03/2025 05:45
+2025-05-23,42,Male,Yes,18:00:00,5,Loss of appetite;Blood in vomit/stool;Dark or tarry stools;Unintended weight loss,>2 hrs,4,Bitterleaf Soup,Overate,Yes,No,Yes,No,10,No,Yes,No,23/05/2025 18:15
+2025-06-23,22,Male,Yes,08:00:00,1,None,>2 hrs,9,Zobo;Banga Soup,Dairy,No,No,No,No,4,No,No,Not sure,23/06/2025 08:53
+2025-06-19,37,Male,No,,2,Nausea,30 mins–2 hrs,3,Yam Porridge;Okro Soup;Cow Skin (Ponmo),None,No,No,Yes,No,4,Yes,Yes,No,19/06/2025 21:10
+2025-05-20,38,Male,Yes,,2,None,<30 mins,1,Grilled Fish;Egusi Soup;Efo Riro,None,No,Yes,No,No,3,Yes,No,Yes,20/05/2025 10:49
+2025-05-28,44,Male,Yes,18:00:00,5,Dark or tarry stools;Feeling full quickly;Persistent fatigue;Nausea,>2 hrs,5,Egusi Soup,Raw onions/garlic,Yes,No,No,Yes,10,No,No,Yes,28/05/2025 14:20
+2025-04-26,20,Female,No,,5,Blood in vomit/stool;Indigestion;Feeling full quickly;Heartburn,>2 hrs,2,Energy Drinks;Pepper Soup;Banga Soup,Raw onions/garlic,Yes,No,Yes,Yes,8,Yes,Not sure,Yes,26/04/2025 16:51
+2025-05-26,23,Male,No,,2,Nausea,>2 hrs,9,Goat Meat,Ate under stress,No,Yes,Yes,No,1,Yes,No,No,26/05/2025 15:03
+2025-04-30,43,Male,No,,1,Persistent fatigue,30 mins–2 hrs,2,Afang Soup,Tomatoes,No,Yes,Yes,No,3,No,No,No,30/04/2025 23:48
+2025-05-14,26,Male,No,,1,Feeling full quickly,30 mins–2 hrs,8,Ogbono Soup;Afang Soup;Noodles,Caffeinated drinks,No,No,Yes,No,3,No,Yes,No,14/05/2025 19:12
+2025-06-19,37,Female,No,,3,Unintended weight loss;Feeling full quickly,>2 hrs,5,Noodles;Oats;Ofada Rice,Tomatoes,Yes,No,Yes,Yes,9,Yes,No,No,19/06/2025 11:17
+2025-05-24,40,Female,Yes,18:00:00,4,Nausea;Blood in vomit/stool;Indigestion,30 mins–2 hrs,10,Fried Rice,Fermented foods,Yes,No,Yes,Yes,9,No,Not sure,Not sure,24/05/2025 19:05
+2025-05-30,30,Male,Yes,,2,None,<30 mins,8,Palm Oil Sauce;Fried Plantain;Okro Soup,Stress,No,Yes,No,No,3,Yes,Yes,Not sure,30/05/2025 19:42
+2025-10-06,40,Female,No,,2,None,>2 hrs,6,Zobo,Stress,No,No,No,No,2,Yes,No,Not sure,06/10/2025 21:01
+2025-03-05,39,Female,Yes,18:00:00,4,Heartburn;Blood in vomit/stool,>2 hrs,3,Bitterleaf Soup;Custard;Energy Drinks,Ate under stress,Yes,Yes,Yes,No,9,No,No,No,05/03/2025 06:54
+2025-05-05,20,Female,Yes,12:00:00,1,Unintended weight loss,30 mins–2 hrs,6,Zobo;Ewedu;Fried Yam,Skipped a meal,No,No,No,No,0,No,Not sure,Not sure,05/05/2025 06:29
+2025-05-06,22,Male,Yes,18:00:00,1,None,<30 mins,10,Beef,Spicy foods,No,No,No,No,6,No,Yes,Yes,06/05/2025 17:37
+2025-05-28,43,Female,Yes,12:00:00,5,Loss of appetite;Feeling full quickly;Nausea,<30 mins,10,Garden Egg Sauce;Grilled Fish,Chocolate,Yes,No,Yes,Yes,9,Yes,Not sure,Yes,28/05/2025 13:25
+2025-04-27,43,Male,Yes,18:00:00,3,Blood in vomit/stool;Feeling full quickly;Unintended weight loss,>2 hrs,3,Fried Chicken,Carbonated drinks,Yes,No,Yes,No,10,No,Yes,No,27/04/2025 06:25
+2025-04-05,22,Female,No,,3,Blood in vomit/stool;Feeling full quickly;Dark or tarry stools;Persistent fatigue,>2 hrs,5,Jollof Rice;White Rice;Energy Drinks,Skipped a meal,Yes,No,Yes,Yes,9,No,Not sure,Not sure,05/04/2025 19:22
+2025-06-15,41,Male,Yes,18:00:00,1,None,<30 mins,8,Coconut Rice;Fried Rice,Fatty foods,No,No,Yes,No,5,No,Yes,Yes,15/06/2025 11:59
+2025-06-05,43,Female,No,,2,Indigestion,30 mins–2 hrs,3,Goat Meat;Ofada Rice;Fish Sauce,None,No,No,No,No,3,Yes,Not sure,No,05/06/2025 19:03
+2025-11-05,27,Male,Yes,18:00:00,1,Persistent fatigue,<30 mins,5,Yam Porridge;Boiled Chicken,None,No,Yes,Yes,No,4,No,Yes,Not sure,05/11/2025 06:22
+2025-06-22,35,Female,No,,4,Blood in vomit/stool;Dark or tarry stools;Unintended weight loss,<30 mins,7,Boiled Potato;Oats;Ogbono Soup,Ate under stress,Yes,No,Yes,Yes,9,Yes,Not sure,Not sure,22/06/2025 09:01
+2025-06-05,35,Male,No,,5,Unintended weight loss;Nausea;Feeling full quickly,30 mins–2 hrs,9,Roasted Plantain (Boli);Fried Chicken,Raw onions/garlic,Yes,Yes,Yes,No,10,Yes,Yes,Not sure,05/06/2025 05:53
+2025-03-05,41,Female,No,,2,None,30 mins–2 hrs,2,Water;Fried Yam;Palm Oil Sauce,Fried foods,No,Yes,No,No,6,No,Not sure,Not sure,05/03/2025 20:53
+2025-04-26,30,Male,No,,4,Loss of appetite;Indigestion,<30 mins,6,Vegetable Soup,Ate late,Yes,No,Yes,Yes,8,No,Yes,No,26/04/2025 14:45
+2025-06-14,32,Male,No,,2,None,30 mins–2 hrs,5,Cow Skin (Ponmo);Yam Porridge,Caffeinated drinks,No,No,No,No,3,Yes,No,Yes,14/06/2025 16:11
+2025-03-05,43,Female,No,,2,None,<30 mins,10,Liver;Soft Drinks,Ate under stress,No,No,No,No,5,Yes,Yes,Yes,05/03/2025 11:58
+2025-06-17,45,Female,Yes,12:00:00,4,Persistent fatigue;Unintended weight loss,<30 mins,9,Snail;Fried Chicken,Fatty foods,Yes,No,Yes,Yes,10,No,No,Not sure,17/06/2025 07:30
+2025-01-05,38,Male,No,,4,Feeling full quickly;Unintended weight loss;Loss of appetite;Dark or tarry stools,>2 hrs,8,Grilled Fish;Yam Porridge,Took NSAIDs,Yes,Yes,No,Yes,7,No,No,Yes,05/01/2025 07:27
+2025-05-31,38,Male,Yes,18:00:00,2,Indigestion,<30 mins,5,Roasted Plantain (Boli);Grilled Fish;Fish Sauce,Skipped a meal,No,No,No,No,5,Yes,Not sure,Not sure,31/05/2025 11:32
+2025-03-06,30,Female,Yes,12:00:00,3,Persistent fatigue;Feeling full quickly;Unintended weight loss,>2 hrs,10,Roasted Plantain (Boli),Ate under stress,Yes,No,Yes,No,9,No,Yes,Not sure,06/03/2025 20:53
+2025-06-15,34,Male,No,,4,Blood in vomit/stool;Heartburn;Dark or tarry stools;Feeling full quickly,<30 mins,2,Pap,Chocolate,Yes,Yes,No,Yes,10,No,No,Yes,15/06/2025 20:39
+2025-05-22,33,Female,Yes,,3,Loss of appetite;Blood in vomit/stool;Dark or tarry stools;Feeling full quickly,>2 hrs,10,Tomato Stew,Skipped a meal,Yes,No,Yes,Yes,9,Yes,Not sure,Not sure,22/05/2025 23:56
+2025-04-30,33,Male,No,,2,Feeling full quickly,30 mins–2 hrs,2,Sweet Potato;Boiled Plantain,None,No,Yes,No,No,3,No,No,No,30/04/2025 12:06
+2025-06-17,24,Male,Yes,,5,Blood in vomit/stool;Unintended weight loss,30 mins–2 hrs,4,Pap,Spicy foods,Yes,No,Yes,No,8,Yes,No,No,17/06/2025 13:13
+2025-06-17,18,Female,No,,2,Blood in vomit/stool,<30 mins,8,Juice;Soft Drinks,Overate,No,No,No,No,3,No,Not sure,No,17/06/2025 22:48
+2025-04-30,25,Male,Yes,12:00:00,4,Feeling full quickly;Dark or tarry stools;Indigestion;Blood in vomit/stool,30 mins–2 hrs,10,Palm Oil Sauce,Citrus fruits,Yes,Yes,Yes,No,8,Yes,Yes,No,30/04/2025 17:08
+2025-05-14,42,Female,Yes,18:00:00,2,None,<30 mins,2,Efo Riro;Yam Porridge;Cow Skin (Ponmo),Took NSAIDs,No,No,Yes,No,4,No,No,No,14/05/2025 17:20
+2025-05-13,42,Male,Yes,,4,Heartburn;Persistent fatigue,<30 mins,2,Bitterleaf Soup;Cow Skin (Ponmo),Skipped a meal,Yes,Yes,No,Yes,7,No,Not sure,Not sure,13/05/2025 19:33
+2025-04-30,26,Male,No,,2,Blood in vomit/stool,<30 mins,6,Roasted Plantain (Boli);Tomato Stew;Palm Oil Sauce,Fatty foods,No,No,Yes,No,0,Yes,No,Not sure,30/04/2025 10:41
+2025-05-15,39,Female,No,,1,None,>2 hrs,4,Noodles,Overate,No,No,Yes,No,2,No,No,No,15/05/2025 19:49
+2025-08-06,38,Female,Yes,,4,Nausea;Blood in vomit/stool;Dark or tarry stools;Feeling full quickly,<30 mins,10,Spaghetti;Water,Dairy,Yes,No,No,Yes,9,No,No,Yes,06/08/2025 07:26
+2025-05-14,26,Female,Yes,08:00:00,5,Feeling full quickly;Dark or tarry stools,<30 mins,9,Cow Skin (Ponmo);Tomato Stew;Bitterleaf Soup,Tomatoes,Yes,No,Yes,Yes,9,No,Yes,Yes,14/05/2025 09:39
+2025-05-16,44,Male,No,,1,Heartburn,>2 hrs,1,Cow Skin (Ponmo);Coconut Rice,Chocolate,No,Yes,No,No,2,Yes,Yes,Yes,16/05/2025 19:24
+2025-12-05,33,Female,No,,4,Dark or tarry stools;Feeling full quickly;Loss of appetite,30 mins–2 hrs,1,Gbegiri;Fried Yam,Took NSAIDs,Yes,Yes,No,Yes,9,Yes,Yes,Not sure,05/12/2025 10:47
+2025-10-05,38,Female,Yes,18:00:00,3,Indigestion;Blood in vomit/stool;Nausea,<30 mins,3,Yam Porridge;Sweet Potato,Took NSAIDs,Yes,No,No,Yes,10,Yes,Not sure,No,05/10/2025 05:16
+2025-12-06,30,Female,Yes,12:00:00,2,Persistent fatigue,30 mins–2 hrs,7,Zobo,Fermented foods,No,No,No,No,4,No,Not sure,Not sure,06/12/2025 07:05
+2025-05-15,29,Male,Yes,,4,Heartburn;Blood in vomit/stool,<30 mins,3,Pap,Dairy,Yes,No,Yes,Yes,8,Yes,Not sure,Yes,15/05/2025 20:40
+2025-05-31,31,Male,Yes,,1,Heartburn,>2 hrs,6,Ewedu,None,No,Yes,Yes,No,0,No,Not sure,No,31/05/2025 19:22
+2025-05-26,37,Female,Yes,08:00:00,4,Loss of appetite;Heartburn,30 mins–2 hrs,4,Banga Soup;Fried Rice;Yam Porridge,Spicy foods,Yes,Yes,No,Yes,8,Yes,No,No,26/05/2025 12:01
+2025-12-05,34,Female,No,,2,Unintended weight loss,>2 hrs,5,Fried Chicken;Beef;Palm Oil Sauce,None,No,Yes,No,No,6,No,No,No,05/12/2025 06:55
+2025-05-17,36,Male,Yes,18:00:00,1,Dark or tarry stools,30 mins–2 hrs,7,Boiled Plantain;Pap,Ate late,No,No,No,No,3,Yes,Yes,Not sure,17/05/2025 14:32
+2025-07-05,23,Male,Yes,18:00:00,4,Heartburn;Dark or tarry stools;Blood in vomit/stool,30 mins–2 hrs,9,Bitterleaf Soup;Pap;Fried Yam,Alcohol,Yes,No,No,Yes,10,No,Not sure,Not sure,05/07/2025 20:17
+2025-05-14,29,Female,Yes,,1,Indigestion,<30 mins,4,Gbegiri;Beef;Ogbono Soup,Dairy,No,No,Yes,No,3,No,No,Yes,14/05/2025 14:59
+2025-04-06,39,Male,No,,5,Dark or tarry stools;Persistent fatigue;Indigestion,30 mins–2 hrs,3,Boiled Plantain;Roasted Plantain (Boli),Dairy,Yes,No,No,No,8,No,Yes,No,06/04/2025 06:51
