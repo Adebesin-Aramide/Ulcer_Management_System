@@ -3,4 +3,4 @@ __pycache__/
 *.json
 *.pyc
 .env
-*.pkl
+ulcer_faiss_index.pkl

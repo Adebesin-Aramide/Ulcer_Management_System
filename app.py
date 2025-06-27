@@ -2,32 +2,39 @@ import os
 import pickle
 from dotenv import load_dotenv
 import streamlit as st
-from huggingface_hub import InferenceClient
+from huggingface_hub import InferenceClient, hf_hub_download
 from langchain_community.vectorstores import FAISS
 
-# 1) Load secrets
+# --- 1) Load secrets ---
 load_dotenv()
 HF_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 if not HF_TOKEN:
     st.error("Missing HUGGINGFACEHUB_API_TOKEN (set in Streamlit Secrets)")
     st.stop()
 
-# 2) Load FAISS index
+# --- 2) Download FAISS index from Hugging Face Hub ---
 try:
-    with open("ulcer_faiss_index.pkl", "rb") as f:
+    file_path = hf_hub_download(
+        repo_id="Aramide/ulcer_faiss_index",  # Replace with your HF username/repo
+        filename="ulcer_faiss_index.pkl",
+        token=HF_TOKEN  # If repo is private; remove token= if public
+    )
+    with open(file_path, "rb") as f:
         vectorstore = pickle.load(f)
-except FileNotFoundError:
-    st.error("ulcer_faiss_index.pkl not found. Run build_index.py first.")
+except Exception as e:
+    st.error(f"Failed to load FAISS index from Hugging Face: {e}")
     st.stop()
 
+# --- 3) Create retriever ---
 retriever = vectorstore.as_retriever(search_kwargs={"k": 4})
 
-# 3) Init Mistral via HF Inference API with Novita provider using chat approach
+# --- 4) Init InferenceClient ---
 client = InferenceClient(
     provider="novita",
     api_key=HF_TOKEN
 )
 
+# --- 5) Build prompt function ---
 def build_prompt(docs, question: str) -> str:
     bullets = []
     for d in docs[:3]:
@@ -44,7 +51,7 @@ def build_prompt(docs, question: str) -> str:
         f"Question: {question}\nAnswer:"
     )
 
-
+# --- 6) Generate answer function ---
 def generate_answer(prompt: str) -> str:
     completion = client.chat.completions.create(
         model="mistralai/Mistral-7B-Instruct-v0.3",
@@ -57,11 +64,10 @@ def generate_answer(prompt: str) -> str:
     )
     return completion.choices[0].message.content.strip()
 
-# --- Streamlit UI ---
+# --- 7) Streamlit UI ---
 st.set_page_config(page_title="UlcerMate Assistant")
 st.title("UlcerMate Assistant")
 
-# Use a form to capture Enter key as submit
 with st.form("query_form"):
     question = st.text_input("Enter your question about ulcers:", "")
     submitted = st.form_submit_button("Submit")
