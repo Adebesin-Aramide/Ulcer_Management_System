@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-.env
-=======
 venv
 __pycache__/
 *.json
 *.pyc
->>>>>>> a9ea79cce13a147b85cc390417c3bb53500571b7
