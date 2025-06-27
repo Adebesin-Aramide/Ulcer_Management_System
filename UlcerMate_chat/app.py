@@ -22,10 +22,10 @@ except FileNotFoundError:
 
 retriever = vectorstore.as_retriever(search_kwargs={"k": 4})
 
-# 3) Init Mistral via HF Inference API
+# 3) Init Mistral via HF Inference API with Novita provider using chat approach
 client = InferenceClient(
-    model="mistralai/Mistral-7B-Instruct-v0.3",
-    token=HF_TOKEN
+    provider="novita",
+    api_key=HF_TOKEN
 )
 
 def build_prompt(docs, question: str) -> str:
@@ -35,22 +35,27 @@ def build_prompt(docs, question: str) -> str:
         bullets.append(f"- {text}")
     context = "\n".join(bullets) if bullets else "No context available."
     return (
-        "<s>[INST] You are a medical assistant specialized in gastric ulcers. "
-        "Answer using ONLY the context below. "
-        "If you don't know, say \"I don't know, please consult a healthcare professional.\""
-        "[/INST]\n\n"
+        "You are a medical assistant specialized in gastric ulcers. "
+        "Answer the question using ONLY the context below. "
+        "Provide a clear and concise answer. "
+        "Do not include any references, sources, or notes in your response. "
+        "If you don't know, say 'I don't know, please consult a healthcare professional.'\n\n"
         f"Context:\n{context}\n\n"
         f"Question: {question}\nAnswer:"
     )
 
+
 def generate_answer(prompt: str) -> str:
-    out = client.text_generation(
-        prompt,
-        max_new_tokens=256,
-        temperature=0.1,
-        stop=["[/INST]"]
+    completion = client.chat.completions.create(
+        model="mistralai/Mistral-7B-Instruct-v0.3",
+        messages=[
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ],
     )
-    return out.split("[/INST]")[-1].strip()
+    return completion.choices[0].message.content.strip()
 
 # --- Streamlit UI ---
 st.set_page_config(page_title="UlcerMate Assistant")

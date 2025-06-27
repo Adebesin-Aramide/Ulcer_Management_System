@@ -1,0 +1,16 @@
+Date,Age,Gender,TakeUlcerMed,MedTime,PainRating,Symptoms,Duration,SymptomChange,Meals,TriggerCauses,AteTriggers,SkippedMeal,AteLate,TookNSAID,StressLevel,CancerDiag,FamilyHistory,HpyloriUlcer,LogTimestamp
+2025-06-12,19,Female,No,11:07,2,Loss of appetite,>2 hrs,2,Spaghetti,,Yes,No,Yes,No,3,No,No,,2025-06-12 11:07:54
+2025-06-12,20,Female,No,12:47,3,Heartburn;Acid reflux,>2 hrs,5,Juice,,No,No,Yes,No,3,No,No,,2025-06-12 12:47:07
+2025-06-12,25,Female,No,14:08,3,Persistent fatigue;Nausea,30 mins–2 hrs,5,None,,Yes,Yes,Yes,No,3,No,Not sure,,2025-06-12 14:08:40
+2025-06-13,20,Female,No,07:36,2,Persistent fatigue;Dark or tarry stools,<30 mins,9,Fried Egg;Water,,Yes,No,Yes,Yes,3,Yes,Yes,,2025-06-13 07:36:54
+2025-06-13,20,Female,No,12:57,1,Acid reflux;Heartburn,>2 hrs,7,Juice;Egg Sauce,,No,No,Yes,No,5,No,No,,2025-06-13 12:57:53
+2025-06-13,22,Female,Yes,19:57,1,Bloating,<30 mins,1,Noodles;Jollof Rice,Spicy foods;Ate late,Yes,Yes,No,No,3,No,Not sure,No,2025-06-13 19:57:53
+45822,19,Female,No,None,1,Loss of appetite;Persistent fatigue,30 mins–2 hrs,5,None,Skipped a meal,No,Yes,Yes,No,3,No,No,No,2025-06-14 0:43:31
+45822,25,Female,No,None,4,None,<30 mins,2,Fried Plantain;Spaghetti;Fried Chicken,Skipped a meal,No,Yes,Yes,No,3,No,Not sure,Yes,2025-06-14 6:58:51
+45823,20,Female,No,None,4,Acid reflux;Heartburn,>2 hrs,6,Fried Rice;Jollof Rice;Beef,Spicy foods,Yes,Yes,No,No,5,No,Not sure,No,2025-06-15 3:24:38
+45824,19,Female,No,None,4,Loss of appetite;Nausea,>2 hrs,5,White Rice,Stress,No,Yes,Yes,No,5,No,No,No,2025-06-16 15:59:00
+45824,20,Female,No,None,3,Acid reflux;Heartburn,>2 hrs,5,Jollof Rice;Fried Chicken,Spicy foods,Yes,Yes,No,No,3,No,No,No,2025-06-16 16:02:40
+45824,20,Female,No,None,4,Bloating;Feeling full quickly,30 mins–2 hrs,7,White Rice;Beef;Cow Skin (Ponmo),Spicy foods;Ate late;Ate under stress,Yes,Yes,Yes,No,4,Yes,Yes,Yes,2025-06-16 16:03:18
+45824,1,Female,No,None,3,Dark or tarry stools,>2 hrs,5,Boiled Yam;Fried Egg,Spicy foods;Ate late,Yes,Yes,Yes,No,4,No,Not sure,No,2025-06-16 19:42:09
+45825,20,Female,No,None,3,None,<30 mins,2,Fried Rice;Jollof Rice;Beef;Boiled Egg;Beans;Fried Chicken,Stress,Yes,No,No,No,3,No,Not sure,No,2025-06-17 14:23:51
+45827,20,Female,Yes,13:38,4,Acid reflux;Loss of appetite,30 mins–2 hrs,5,White Rice;Tomato Stew;Goat Meat,Spicy foods,Yes,No,Yes,No,3,No,Not sure,No,2025-06-19 13:38:01

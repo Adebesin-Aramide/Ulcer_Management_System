@@ -35,7 +35,7 @@ def load_txt_docs(path: str):
 
 def main():
     # Point this at your ulcer knowledge base
-    data_path = "data/ulcer.txt"   # or a folder "ulcer_kb/"
+    data_path = r"C:\Users\user\Documents\Ulcer_management_system\Ulcer_Management_System\data\ulcer.txt"   # or a folder "ulcer_kb/"
     raw_docs = load_txt_docs(data_path)
 
     # Split into ~500-token chunks
