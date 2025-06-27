@@ -3,3 +3,6 @@ faiss-cpu
 langchain-community
 huggingface-hub
 sentence-transformers
+joblib
+pandas
+fastapi
